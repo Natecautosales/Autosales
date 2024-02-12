@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Automotive Dealership</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 20px;
+    }
+
+    header {
+      background-color: #000000;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    .vehicle {
+      border: 1px solid #000000;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Automotive Dealership</h1>
+  </header>
+
+  <section>
+    <div class="vehicle">
+      <h2>Vehicle 1</h2>
+      <p>Make: [Make]</p>
+      <p>Miles: [Miles]</p>
+      <p>Price: [Price]</p>
+      <img src="vehicle1_image1.jpg" alt="Vehicle 1 Image 1">
+      <img src="vehicle1_image2.jpg" alt="Vehicle 1 Image 2">
+      <!-- Add more images if needed -->
+    </div>
+
+    <!-- Add more vehicle sections as required -->
+  </section>
+
+  <footer>
+    <p>Contact us at:</p>
+    <p>Business Name</p>
+    <p>Phone: [Your Phone Number]</p>
+    <p>Email: [Your Email]</p>
+  </footer>
+
+</body>
+</html>
